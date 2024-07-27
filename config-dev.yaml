@@ -1,0 +1,15 @@
+app:
+  database:
+    type: mysql
+    user: root
+    password: root
+    dbName: seckill
+    address: 10.211.55.7:3306
+    maxIdle: 100
+    maxOpen: 150
+  redis:
+    address: 10.211.55.7:6379
+    network: tcp
+    maxIdle: 1000
+    maxActive: 2000
+    idleTimeout: 200
